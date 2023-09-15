@@ -1,0 +1,83 @@
+
+  .left {
+    /* border: 1px solid beige; */
+    position: absolute;
+    left: 40px;
+    top: 33px;
+  }
+  .left img {
+    width: 175px;
+  }
+  .center {
+    /* border: 1px solid beige; */
+    display: block;
+    width: 47%;
+    margin: 20px auto;
+  }
+  .right {
+    /* border: 1px solid beige; */
+    position: absolute;
+    right: 40px;
+    top: 35px;
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  .navbar li {
+    display: inline-block;
+  }
+  .navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  .navbar li a:hover,
+  .navbar ul li a.active {
+    color: rgb(175, 68, 32);
+    text-decoration: underline;
+  }
+  .btn {
+    font-family: "Roboto", sans-serif;
+    margin: 0px 15px;
+    padding: 4px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  .btn:hover {
+    color: rgb(175, 68, 32);
+  }
+  .container {
+    /* border: 2px solid white; */
+    padding: 20px 50px;
+    margin: 77px 38px;
+    width: 30%;
+    border-radius: 8px;
+    line-height: 1px;
+  }
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px; 
+  }
+  .heading {
+    color: rgb(175, 68, 32);
+  }
+
+  input {
+    height: 30px;
+    border-radius: 5px;
+    width: 400px;
+    margin: 1px;
+  }
+  .btn1 {
+    margin: 28px 155px;
+    padding: 6px 20px;
+    font-weight: bold ;
+    border-radius: 3px;
+  }
